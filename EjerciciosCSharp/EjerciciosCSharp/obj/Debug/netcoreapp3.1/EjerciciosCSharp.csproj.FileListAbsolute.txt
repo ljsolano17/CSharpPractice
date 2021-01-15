@@ -1,0 +1,13 @@
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.exe
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.deps.json
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.runtimeconfig.json
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.runtimeconfig.dev.json
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.dll
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\netcoreapp3.1\EjerciciosCSharp.pdb
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.csprojAssemblyReference.cache
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.AssemblyInfoInputs.cache
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.AssemblyInfo.cs
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.csproj.CoreCompileInputs.cache
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.dll
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.pdb
+D:\PRACTICA C# INTERVIEW\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\netcoreapp3.1\EjerciciosCSharp.genruntimeconfig.cache
