@@ -23,11 +23,16 @@ namespace EjerciciosCSharp
               multTable();
             Console.Write("\n Noveno Ejercicio" + "\n");
             Promediar();
-            */
+            
             Console.Write("\n Decimo Ejercicio" + "\n");
             OperacionCombinada();
+            Console.Write("\n Ejercicio 11" + "\n");
+            LookOlderThan();
 
+            Console.Write("\n Ejercicio 12" + "\n");
+            Rows();*/
 
+            Rectangle();
 
 
 
@@ -37,7 +42,7 @@ namespace EjerciciosCSharp
 
         }
         /// <summary>
-        /// Primer Ejercicio
+        /// Ejercicio 1
         /// </summary>
         static void PrintHello()
         {
@@ -46,7 +51,7 @@ namespace EjerciciosCSharp
 
         }
         /// <summary>
-        /// Segundo Ejercicio
+        /// Ejercicio 2
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
@@ -56,7 +61,7 @@ namespace EjerciciosCSharp
             return x + y;
         }
         /// <summary>
-        /// Tercer Ejercicio
+        /// Ejercicio 3
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
@@ -75,7 +80,7 @@ namespace EjerciciosCSharp
 
         }
         /// <summary>
-        /// Cuarto Ejercicio
+        /// Ejercicio 4
         /// </summary>
         /// <param name="Operation"></param>
         /// <returns></returns>
@@ -85,7 +90,7 @@ namespace EjerciciosCSharp
         }
 
         /// <summary>
-        /// Quinto Ejercicio
+        /// Ejercicio 5
         /// </summary>
         /// <param name="primero"></param>
         /// <param name="segundo"></param>
@@ -105,7 +110,7 @@ namespace EjerciciosCSharp
 
         }
         /// <summary>
-        /// Sexto Ejercicio
+        /// Ejercicio 6
         /// </summary>
         /// <returns></returns>
         static int Multipl()
@@ -118,7 +123,7 @@ namespace EjerciciosCSharp
         }
 
         /// <summary>
-        /// Setimo Ejercicio
+        /// Ejercicio 7
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
@@ -136,7 +141,7 @@ namespace EjerciciosCSharp
 
         }
         /// <summary>
-        /// Octavo Ejercicio
+        /// Ejercicio 8
         /// </summary>
         static void multTable()
         {
@@ -152,7 +157,7 @@ namespace EjerciciosCSharp
         }
 
         /// <summary>
-        /// Noveno Ejercicio
+        /// Ejercicio 9
         /// </summary>
         static void Promediar()
         {
@@ -173,7 +178,9 @@ namespace EjerciciosCSharp
             Console.WriteLine("The average is: "+promedio/4);
 
         }
-
+        /// <summary>
+        /// Ejercicio 10
+        /// </summary>
         static void OperacionCombinada()
         {
 
@@ -197,6 +204,69 @@ namespace EjerciciosCSharp
 
         }
 
+        /// <summary>
+        /// Ejercicio 11
+        /// </summary>
+        static void LookOlderThan()
+        {
+            Console.Write("\n Ingrese su edad" + "\n");
+            int age = int.Parse(Console.ReadLine());
+
+            if(age < 0)
+            {
+                age = age * -1;
+            }
+
+            Console.WriteLine("You look older than "+age);
+
+        }
+        /// <summary>
+        /// Ejercicio 12
+        /// </summary>
+        static void Rows()
+        {
+
+            int num;
+
+            Console.WriteLine("Enter a digit: ");
+            num = int.Parse(Console.ReadLine());
+
+           
+            Console.Write(num);
+            Console.Write(" ");
+            Console.Write(num);
+            Console.Write(" ");
+            Console.Write(num);
+            Console.Write(" ");
+            Console.Write(num);
+            Console.WriteLine();
+
+           
+            Console.Write(num);
+            Console.Write(num);
+            Console.Write(num);
+            Console.WriteLine(num);
+            Console.WriteLine();
+
+            //Cambia los 0 por num
+            Console.WriteLine("{0} {0} {0} {0}", num);
+            Console.WriteLine("{0}{0}{0}{0}",    num);
+
+        }
+
+        static void Rectangle()
+        {
+
+            string x = Console.ReadLine();
+            Console.WriteLine(x + x + x);
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(x + " " + x);
+               
+            }
+            Console.WriteLine(x + x + x);
+
+        }
 
 
 
