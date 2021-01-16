@@ -30,14 +30,21 @@ namespace EjerciciosCSharp
             LookOlderThan();
 
             Console.Write("\n Ejercicio 12" + "\n");
-            Rows();*/
-
+            Rows();
+            Console.Write("\n Ejercicio 13" + "\n");
             Rectangle();
+            Console.Write("\n Ejercicio 14" + "\n");
+            ConvertDegrees();
 
 
+            Console.Write("\n Ejercicio 15" + "\n");
+            Console.WriteLine(RemoveChar("w3resource",1));
+            
+            Console.Write("\n Ejercicio 16" + "\n");
+            ChangeOrder();*/
 
-
-
+            Console.Write("\n Ejercicio 17" + "\n");
+            RepetirLetra();
 
 
         }
@@ -253,7 +260,9 @@ namespace EjerciciosCSharp
             Console.WriteLine("{0}{0}{0}{0}",    num);
 
         }
-
+        /// <summary>
+        /// Ejercicio 13
+        /// </summary>
         static void Rectangle()
         {
 
@@ -267,8 +276,60 @@ namespace EjerciciosCSharp
             Console.WriteLine(x + x + x);
 
         }
+        /// <summary>
+        /// Ejercicio 14
+        /// </summary>
+        static void ConvertDegrees()
+        {
+
+            decimal cDegree = decimal.Parse(Console.ReadLine());
+            decimal fDegree = cDegree * 9 / 5 + 32;
+
+            Console.WriteLine(fDegree+ "°F");
 
 
+        }
+        /// <summary>
+        /// Ejercicio 15
+        /// </summary>
+        /// <param name="word"></param>
+        /// <param name="pos"></param>
+        /// <returns></returns>
+        static string RemoveChar(string word, int pos)
+        {
+
+
+            return word.Remove(pos, 1);
+
+        }
+        /// <summary>
+        /// Ejercicio 16
+        /// </summary>
+        static void ChangeOrder()
+        {
+
+            var word = "Python";
+
+            var temp = word[0];
+            /*  word = word.Remove(word.Length - 1);
+              word = word.Remove(0, 1)+temp;*/
+             word = word.Substring(1);
+             word = word[word.Length-1]+word;
+             word = word.Remove(word.Length-1);
+             word = word + temp;
+            
+            Console.WriteLine(word);
+         //   word=word[word.Length-1]
+        }
+        /// <summary>
+        /// Ejercicio 17
+        /// </summary>
+        static void RepetirLetra()
+        {
+            string phrase= "The quick brown fox jumps over the lazy dog.";
+            phrase = phrase[0] + phrase + phrase[0];
+            Console.WriteLine(phrase);
+        }
 
     }
 }
