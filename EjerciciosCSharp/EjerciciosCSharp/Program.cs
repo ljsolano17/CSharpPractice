@@ -41,11 +41,13 @@ namespace EjerciciosCSharp
             Console.WriteLine(RemoveChar("w3resource",1));
             
             Console.Write("\n Ejercicio 16" + "\n");
-            ChangeOrder();*/
+            ChangeOrder();
 
             Console.Write("\n Ejercicio 17" + "\n");
             RepetirLetra();
-
+            */
+            Console.Write("\n Ejercicio 18" + "\n");
+            Console.WriteLine(CheckNumber());
 
         }
         /// <summary>
@@ -329,6 +331,64 @@ namespace EjerciciosCSharp
             string phrase= "The quick brown fox jumps over the lazy dog.";
             phrase = phrase[0] + phrase + phrase[0];
             Console.WriteLine(phrase);
+        }
+
+        /// <summary>
+        /// Ejercicio 18
+        /// </summary>
+        /// <returns></returns>
+        static bool CheckNumber()
+        {
+
+            decimal x = int.Parse(Console.ReadLine());
+            decimal z = int.Parse(Console.ReadLine());
+            if (x < 0 && z>0 || x>0 && z<0)
+            {
+                return true;
+            }else
+            {
+                return false;
+            }
+
+        }
+        /// <summary>
+        /// Ejercicio 19
+        /// </summary>
+        /// <returns></returns>
+
+        static decimal MultiSum()
+        {
+
+            decimal x = int.Parse(Console.ReadLine());
+            decimal z = int.Parse(Console.ReadLine());
+
+            if (x == z)
+            {
+                return (x + z) * 3;
+            }
+            else
+            {
+                return x + z;
+            }
+
+        }
+        /// <summary>
+        /// Ejrecicio 20
+        /// </summary>
+        /// <returns></returns>
+        static decimal Absolute()
+        {
+
+            decimal x = int.Parse(Console.ReadLine());
+            decimal z = int.Parse(Console.ReadLine());
+            if (x > z)
+            {
+                return (x - z) * 2;
+            }
+            else
+            {
+                return z - x;
+            }
         }
 
     }
